@@ -1,0 +1,45 @@
+/* face.css */
+
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40; /* Dark grey text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+}
+
+.video-box {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.emotion-text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #28a745; /* Bootstrap success color */
+}
+
+a.btn-secondary {
+    margin-top: 10px;
+    border-radius: 25px;
+}

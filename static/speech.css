@@ -1,0 +1,54 @@
+/* speech.css */
+
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40; /* Dark grey text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+}
+
+.form-style {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control-file {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.detected-emotion {
+    color: #28a745; /* Bootstrap success color */
+    font-weight: bold;
+}
+
+a.btn-secondary {
+    margin-top: 10px;
+    border-radius: 25px;
+}
+

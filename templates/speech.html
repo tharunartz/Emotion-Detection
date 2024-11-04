@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Emotion Detection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/speech.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">Speech Emotion Detection</h1>
+        <form action="/speech" method="post" enctype="multipart/form-data" class="form-style">
+            <div class="form-group">
+                <input type="file" name="audiofile" accept="audio/*" class="form-control-file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload Audio</button>
+        </form>
+        {% if emotion %}
+            <h2 class="mt-4 detected-emotion">Detected Emotion: {{ emotion }}</h2>
+        {% endif %}
+        <div class="mt-3">
+            <a href="/" class="btn btn-secondary">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
