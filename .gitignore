@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+*.env
+
+# macOS hidden files
+.DS_Store
+
+# Linux temporary files
+*.swp
+*.swo
+*~
+*.bak
+
+# Uploads folder
+uploads/
+
+# TensorFlow SavedModel files
+saved_model/
+
+# Model files
+*.h5
+*.json
+
+# Logs
+logs/
+*.log
+
+# System logs
+*.log
+*.out
+*.err
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Flask cache
+*.pyo
+instance/

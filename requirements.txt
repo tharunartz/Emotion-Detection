@@ -1,0 +1,5 @@
+tensorflow==2.10.0
+numpy==1.24.4
+opencv-python==4.10.0.84
+Flask==3.0.3
+moviepy==1.0.3
